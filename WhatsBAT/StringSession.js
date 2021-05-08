@@ -12,7 +12,7 @@ class StringSession {
                 string = fs.readFileSync(string, {encoding:'utf8', flag:'r'});
             }
         }
-
+        
         var split = string.split(';;;');
         if (split.length >= 2) {
             return JSON.parse(Buffer.from(split[split.length - 1], 'base64').toString('utf-8'));
