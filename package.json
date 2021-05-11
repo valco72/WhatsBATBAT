@@ -1,29 +1,29 @@
 {
-  "name": "WhatsBAT",
+  "name": "WhatsBATBAT",
   "version": "9.9",
-  "description": "WhatsBAT - a Whatsapp userbot, which makes whatsapp funny.",
-  "main": "./WhatsBAT/bot.js",
+  "description": "WhatsBATBAT - a Whatsapp userbot, which makes whatsapp funny.",
+  "main": "./WhatsBATBATBAT/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valco72/WhatsBAT.git"
+    "url": "git+https://github.com/valco72/WhatsBATBATBAT.git"
   },
   "keywords": [
     "whatsapp",
     "bot",
     "ai",
     "bat",
-    "WhatsBAT"
+    "WhatsBATBAT"
   ],
   "author": "BATDev / valco72",
   "developer": "BATDev / Mockir",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/valco72/WhatsBAT/issues"
+    "url": "https://github.com/valco72/WhatsBATBAT/issues"
   },
-  "homepage": "https://github.com/valco72/WhatsBAT#readme",
+  "homepage": "https://github.com/valco72/WhatsBATBAT#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.0",
     "@lh2020/speedtest-net": "^2.1.1",

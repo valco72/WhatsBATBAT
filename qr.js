@@ -1,9 +1,9 @@
 const chalk = require('chalk');
 const {WAConnection} = require('@adiwajshing/baileys');
-const {StringSession} = require('./WhatsBAT/');
+const {StringSession} = require('./WhatsBATBATBAT/');
 const fs = require('fs');
 
-async function whatsBAT () {
+async function WhatsBATBAT () {
     const conn = new WAConnection();
     const Session = new StringSession();
     conn.logger.level = 'warn';
@@ -36,4 +36,4 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
     await conn.connect();
 }
 
-whatsBAT()
+WhatsBATBAT()

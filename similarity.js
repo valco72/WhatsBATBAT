@@ -1,4 +1,4 @@
-/* WhatsBAT
+/* WhatsBATBAT
 function similarity(first, second) {
 	first = first.replace(/\s+/g, '')
 	second = second.replace(/\s+/g, '')

@@ -1,11 +1,11 @@
 {
-  "name": "WhatsBAT",
-  "description": "WhatsBAT project",
+  "name": "WhatsBATBAT",
+  "description": "WhatsBATBAT project",
   "logo": "https://i.hizliresim.com/e1ufxb9.jpg",
-  "keywords": [ "whatsapp", "userbot", "BAT", "WhatsBAT", "bot", "api", "ai" ],
-  "repository": "https://github.com/valco72/WhatsBAT",
-  "website": "https://t.me/WhatsBAT",
-  "success_url": "https://t.me/WhatsBAT",
+  "keywords": [ "whatsapp", "userbot", "BAT", "WhatsBATBAT", "bot", "api", "ai" ],
+  "repository": "https://github.com/valco72/WhatsBATBATBAT",
+  "website": "https://t.me/WhatsBATBAT",
+  "success_url": "https://t.me/WhatsBATBAT",
   "stack": "container",
   "env": {
     "BAT_SESSION": {
@@ -66,7 +66,7 @@
       "value": "default"
     },
     "WORK_TYPE": {
-      "description": "WhatsBAT Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+      "description": "WhatsBATBAT Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
       "required": true,
       "value": "private"
     },
