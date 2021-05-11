@@ -1,4 +1,4 @@
-const Asena = require('../events');
+const BAT = require('../events');
 const Heroku = require('heroku-client');
 const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
@@ -20,7 +20,7 @@ const heroku = new Heroku({
 
 let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
 
-Asena.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, warn: Lang.WARN}, (async (message, match) => {
+BAT.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, warn: Lang.WARN}, (async (message, match) => {
     if (match[1] === '') return await message.sendMessage(Lang.NEED_URL + '.install https://gist.github.com/username/plugin')
     try {
         var url = new URL(match[1]);
@@ -55,14 +55,14 @@ Asena.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DES
 
         await Db.installPlugin(url, plugin_name);
         await message.client.sendMessage(message.jid, Lang.INSTALLED, MessageType.text);
-        if (!match[1].includes('phaticusthiccy')) {
+        if (!match[1].includes('valco72')) {
             await new Promise(r => setTimeout(r, 400));
             await message.client.sendMessage(message.jid, Lang.UNOFF, MessageType.text);
         }
     }
 }));
 
-Asena.addCommand({pattern: 'plugin', fromMe: true, desc: Lang.PLUGIN_DESC }, (async (message, match) => {
+BAT.addCommand({pattern: 'plugin', fromMe: true, desc: Lang.PLUGIN_DESC }, (async (message, match) => {
     var mesaj = Lang.INSTALLED_FROM_REMOTE;
     var plugins = await Db.PluginDB.findAll();
     if (plugins.length < 1) {
@@ -78,7 +78,7 @@ Asena.addCommand({pattern: 'plugin', fromMe: true, desc: Lang.PLUGIN_DESC }, (as
     }
 }));
 
-Asena.addCommand({pattern: 'remove(?: |$)(.*)', fromMe: true, desc: Lang.REMOVE_DESC}, (async (message, match) => {
+BAT.addCommand({pattern: 'remove(?: |$)(.*)', fromMe: true, desc: Lang.REMOVE_DESC}, (async (message, match) => {
     if (match[1] === '') return await message.sendMessage(Lang.NEED_PLUGIN);
     if (!match[1].startsWith('__')) match[1] = '__' + match[1];
     var plugin = await Db.PluginDB.findAll({ where: {name: match[1]} });
