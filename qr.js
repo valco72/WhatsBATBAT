@@ -1,6 +1,6 @@
 const chalk = require('chalk');
 const {WAConnection} = require('@adiwajshing/baileys');
-const {StringSession} = require('./WhatsBATBATBAT/');
+const {StringSession} = require('./WhatsBATBAT/');
 const fs = require('fs');
 
 async function WhatsBATBAT () {

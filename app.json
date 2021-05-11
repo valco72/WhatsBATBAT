@@ -3,7 +3,7 @@
   "description": "WhatsBATBAT project",
   "logo": "https://i.hizliresim.com/e1ufxb9.jpg",
   "keywords": [ "whatsapp", "userbot", "BAT", "WhatsBATBAT", "bot", "api", "ai" ],
-  "repository": "https://github.com/valco72/WhatsBATBATBAT",
+  "repository": "https://github.com/valco72/WhatsBATBAT",
   "website": "https://t.me/WhatsBATBAT",
   "success_url": "https://t.me/WhatsBATBAT",
   "stack": "container",

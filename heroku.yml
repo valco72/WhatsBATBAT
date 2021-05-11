@@ -1,5 +1,5 @@
 build:
   docker:
-      worker: /WhatsBATBATBAT/Dockerfile
+      worker: /WhatsBATBAT/Dockerfile
 run:
    worker: npm start

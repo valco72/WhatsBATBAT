@@ -6,7 +6,7 @@ const config = require('./config');
 const axios = require('axios');
 const Heroku = require('heroku-client');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./WhatsBATBATBAT/');
+const {Message, StringSession, Image, Video} = require('./WhatsBATBAT/');
 const { DataTypes } = require('sequelize');
 const { GreetingsDB, getMessage } = require("./plugins/sql/greetings");
 const got = require('got');
@@ -25,7 +25,7 @@ const Language = require('./language');
 const Lang = Language.getString('updater');
 
 // Sql
-const WhatsBATBATDB = config.DATABASE.define('WhatsBATBATBAT', {
+const WhatsBATBATDB = config.DATABASE.define('WhatsBATBAT', {
     info: {
       type: DataTypes.STRING,
       allowNull: false

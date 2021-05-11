@@ -2,13 +2,13 @@
   "name": "WhatsBATBAT",
   "version": "9.9",
   "description": "WhatsBATBAT - a Whatsapp userbot, which makes whatsapp funny.",
-  "main": "./WhatsBATBATBAT/bot.js",
+  "main": "./WhatsBATBAT/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valco72/WhatsBATBATBAT.git"
+    "url": "git+https://github.com/valco72/WhatsBATBAT.git"
   },
   "keywords": [
     "whatsapp",
