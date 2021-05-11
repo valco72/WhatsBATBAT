@@ -50,7 +50,7 @@ if (cn.WORKTYPE == 'private') {
               responseType: 'arraybuffer',
             })
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-              caption: 'Made by WhatsBAT',
+              caption: 'Made by WhatsBATBAT',
             })
           })
           .catch(
@@ -125,7 +125,7 @@ else if (cn.WORKTYPE == 'public') {
               responseType: 'arraybuffer',
             })
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-              caption: 'Made by WhatsBAT',
+              caption: 'Made by WhatsBATBAT',
             })
           })
           .catch(
@@ -147,7 +147,7 @@ else if (cn.WORKTYPE == 'public') {
               responseType: 'arraybuffer',
             })
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-              caption: 'Made by WhatsBAT',
+              caption: 'Made by WhatsBATBAT',
             })
           })
           .catch(

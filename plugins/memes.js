@@ -40,7 +40,7 @@ if (Config.WORKTYPE == 'private') {
             bottomText: bottomText,
         }, async function(err) {
             if(err) throw new Error(err)
-            await message.client.sendMessage(message.jid, fs.readFileSync('bat-meme.png'), MessageType.image, {filename: 'bat-meme.png', mimetype: Mimetype.png, caption: 'Made by WhatsBAT'});
+            await message.client.sendMessage(message.jid, fs.readFileSync('bat-meme.png'), MessageType.image, {filename: 'bat-meme.png', mimetype: Mimetype.png, caption: 'Made by WhatsBATBAT'});
             await info.delete();
         });
     }));
@@ -78,7 +78,7 @@ else if (Config.WORKTYPE == 'public') {
             bottomText: bottomText,
         }, async function(err) {
             if(err) throw new Error(err)
-            await message.client.sendMessage(message.jid, fs.readFileSync('bat-meme.png'), MessageType.image, {filename: 'bat-meme.png', mimetype: Mimetype.png, caption: 'Made by WhatsBAT'});
+            await message.client.sendMessage(message.jid, fs.readFileSync('bat-meme.png'), MessageType.image, {filename: 'bat-meme.png', mimetype: Mimetype.png, caption: 'Made by WhatsBATBAT'});
             await info.delete();
         });
     }));
@@ -113,7 +113,7 @@ else if (Config.WORKTYPE == 'public') {
             bottomText: bottomText,
         }, async function(err) {
             if(err) throw new Error(err)
-            await message.client.sendMessage(message.jid, fs.readFileSync('bat-meme.png'), MessageType.image, {filename: 'bat-meme.png', mimetype: Mimetype.png, caption: 'Made by WhatsBAT'});
+            await message.client.sendMessage(message.jid, fs.readFileSync('bat-meme.png'), MessageType.image, {filename: 'bat-meme.png', mimetype: Mimetype.png, caption: 'Made by WhatsBATBAT'});
             await info.delete();
         });
     }));

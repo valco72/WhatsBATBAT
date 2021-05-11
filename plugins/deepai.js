@@ -26,7 +26,7 @@ if (Config.WORKTYPE == 'private') {
 
         var webimage = await axios.get('https://screenshotapi.net/api/v1/screenshot?url=https://thispersondoesnotexist.com/&output=image&width=1000&height=1000', { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
     }));
 
@@ -41,7 +41,7 @@ if (Config.WORKTYPE == 'private') {
         await message.sendMessage(
             Buffer.from(IMGWADATA.data),
             MessageType.image,
-            {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'}
+            {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'}
         )
 
     }));
@@ -68,7 +68,7 @@ if (Config.WORKTYPE == 'private') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -99,7 +99,7 @@ if (Config.WORKTYPE == 'private') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -130,7 +130,7 @@ if (Config.WORKTYPE == 'private') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -174,7 +174,7 @@ if (Config.WORKTYPE == 'private') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -222,7 +222,7 @@ if (Config.WORKTYPE == 'private') {
 
         var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
     }));
 
@@ -323,7 +323,7 @@ if (Config.WORKTYPE == 'private') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -343,7 +343,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var webimage = await axios.get('https://screenshotapi.net/api/v1/screenshot?url=https://thispersondoesnotexist.com/&output=image&width=1000&height=1000', { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
     }));
 
@@ -358,7 +358,7 @@ else if (Config.WORKTYPE == 'public') {
         await message.sendMessage(
             Buffer.from(IMGWADATA.data),
             MessageType.image,
-            {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'}
+            {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'}
         )
 
     }));
@@ -366,7 +366,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var webimage = await axios.get('https://screenshotapi.net/api/v1/screenshot?url=https://thispersondoesnotexist.com/&output=image&width=1000&height=1000', { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
     }));
 
@@ -381,7 +381,7 @@ else if (Config.WORKTYPE == 'public') {
         await message.sendMessage(
             Buffer.from(IMGWADATA.data),
             MessageType.image,
-            {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'}
+            {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'}
         )
 
     }));
@@ -408,7 +408,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -439,7 +439,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -470,7 +470,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -514,7 +514,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -562,7 +562,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
     }));
 
@@ -663,7 +663,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -700,7 +700,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -731,7 +731,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -762,7 +762,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -806,7 +806,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 
@@ -854,7 +854,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
     }));
 
@@ -955,7 +955,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBAT'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsBATBAT'})
 
             });
 

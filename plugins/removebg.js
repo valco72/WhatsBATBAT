@@ -44,7 +44,7 @@ if (Config.WORKTYPE == 'private') {
 		    fs.createWriteStream('rbg.png')
         );
 
-        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'WhatsBAT.png', mimetype: Mimetype.png});
+        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'WhatsBATBAT.png', mimetype: Mimetype.png});
         await load.delete();
     }));
 }
@@ -80,7 +80,7 @@ else if (Config.WORKTYPE == 'public') {
 		    fs.createWriteStream('rbg.png')
         );
 
-        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'WhatsBAT.png', mimetype: Mimetype.png});
+        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'WhatsBATBAT.png', mimetype: Mimetype.png});
         await load.delete();
     }));
     BAT.addCommand({pattern: 'removebg ?(.*)', fromMe: true, desc: Lang.REMOVEBG_DESC, dontAddCommandList: true}, (async (message, match) => {
@@ -113,7 +113,7 @@ else if (Config.WORKTYPE == 'public') {
 		    fs.createWriteStream('rbg.png')
         );
 
-        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'WhatsBAT.png', mimetype: Mimetype.png});
+        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'WhatsBATBAT.png', mimetype: Mimetype.png});
         await load.delete();
     }));
 }

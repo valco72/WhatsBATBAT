@@ -2,7 +2,7 @@ const BAT = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
-const dd = "Made by WhatsBAT"
+const dd = "Made by WhatsBATBAT"
 
 const Language = require('../language');
 const Lang = Language.getString('carbon');

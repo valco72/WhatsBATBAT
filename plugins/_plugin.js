@@ -49,7 +49,7 @@ BAT.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC,
         try {
             require('./' + plugin_name);
         } catch (e) {
-            fs.unlinkSync('/root/WhatsBAT/plugins/' + plugin_name + '.js')
+            fs.unlinkSync('/root/WhatsBATBATBAT/plugins/' + plugin_name + '.js')
             return await message.sendMessage(Lang.INVALID_PLUGIN + ' ```' + e + '```');
         }
 
