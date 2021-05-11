@@ -1,8 +1,8 @@
 {
-    "__ASENAJSON__": true,
+    "__BATJSON__": true,
     "LANGUAGE": "Türkcə",
     "LANGCODE": "Tr",
-    "AUTHOR": "AsenaDev",
+    "AUTHOR": "BATDev",
     "STRINGS": {
         "_bat": {
             "COMMAND": "Əmr",
@@ -454,7 +454,7 @@
             "NOT_FOUND": "*Post tapılmadı!*"
         },
         "github": {
-            "GİTHUB_DESC": "Verilən istifadəçi adından github məlumatlarını toplayır.\n⌨️ Nümunə: .github phaticusthiccy",
+            "GİTHUB_DESC": "Verilən istifadəçi adından github məlumatlarını toplayır.\n⌨️ Nümunə: .github valco72",
             "REPLY": "```Hər hansı bir istifadəçi adı daxil etməlisiniz!```",
             "NOT": "```İstifadəçi Tapılmadı!```",
             "FOLLOWERS": "İzləyicilər:",

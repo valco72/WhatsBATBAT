@@ -1,8 +1,8 @@
 {
-    "__ASENAJSON__": true,
+    "__BATJSON__": true,
     "LANGUAGE": "Hindi",
     "LANGCODE": "hi",
-    "AUTHOR": "AsenaDev",
+    "AUTHOR": "BATDev",
     "STRINGS": {
         "_bat": {
             "COMMAND": "आदेश",
@@ -456,7 +456,7 @@
             "NOT_FOUND": "*मीडिया नहीं मिला*"
         },
         "github": {
-            "GİTHUB_DESC": "दिए गए उपयोगकर्ता नाम से github जानकारी एकत्र करता है.\n⌨️ उदाहरण: .github phaticusthiccy",
+            "GİTHUB_DESC": "दिए गए उपयोगकर्ता नाम से github जानकारी एकत्र करता है.\n⌨️ उदाहरण: .github valco72",
             "REPLY": "```आपको कोई उपयोगकर्ता नाम दर्ज करने की आवश्यकता है!```",
             "NOT": "```उपयोगकर्ता नहीं मिला!```",
             "FOLLOWERS": "समर्थक:",

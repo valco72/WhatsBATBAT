@@ -1,8 +1,8 @@
 {
-    "__ASENAJSON__": true,
+    "__BATJSON__": true,
     "LANGUAGE": "Español",
     "LANGCODE": "es",
-    "AUTHOR": "Phaticusthiccy / Skueletor",
+    "AUTHOR": "valco72",
     "STRINGS": {
         "_bat": {
             "COMMAND": "Comando",
@@ -456,7 +456,7 @@
             "NOT_FOUND": "*Medios no encontrado*"
         },
         "github": {
-            "GİTHUB_DESC": "Recopila información de github del nombre de usuario dado.\n⌨️ Muestra: .github phaticusthiccy",
+            "GİTHUB_DESC": "Recopila información de github del nombre de usuario dado.\n⌨️ Muestra: .github valco72",
             "REPLY": "```Necesita ingresar cualquier nombre de usuario!```",
             "NOT": "```Usuario no encontrado!```",
             "FOLLOWERS": "Seguidores:",

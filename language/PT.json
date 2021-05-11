@@ -1,8 +1,8 @@
 {
-    "__ASENAJSON__": true,
+    "__BATJSON__": true,
     "LANGUAGE": "Português Brasileiro",
     "LANGCODE": "pt",
-    "AUTHOR": "AsenaDev",
+    "AUTHOR": "BATDev",
     "STRINGS": {
         "_bat": {
             "COMMAND": "Comando",
@@ -456,7 +456,7 @@
             "NOT_FOUND": "```Midia nao encontrada```"
         },
         "github": {
-            "GİTHUB_DESC": "Coleta informações do github do nome de usuário fornecido.\n⌨️ Exemplo: .github phaticusthiccy",
+            "GİTHUB_DESC": "Coleta informações do github do nome de usuário fornecido.\n⌨️ Exemplo: .github valco72",
             "REPLY": "```Você precisa digitar qualquer nome de usuário!```",
             "NOT": "```Usuário não encontrado!```",
             "FOLLOWERS": "Seguidores:",

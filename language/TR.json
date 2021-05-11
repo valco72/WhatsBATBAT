@@ -1,8 +1,8 @@
 {
-    "__ASENAJSON__": true,
+    "__BATJSON__": true,
     "LANGUAGE": "Türkçe",
     "LANGCODE": "tr",
-    "AUTHOR": "AsenaDev",
+    "AUTHOR": "BATDev",
     "STRINGS": {
         "_bat": {
             "COMMAND": "Komut",
@@ -462,7 +462,7 @@
             "NOT_FOUND": "*Medya Bulunamadı!*"
         },
         "github": {
-            "GİTHUB_DESC": "Verilen kullanıcı adından github bilgilerini toplar.\n⌨️ Örnek: .github phaticusthiccy",
+            "GİTHUB_DESC": "Verilen kullanıcı adından github bilgilerini toplar.\n⌨️ Örnek: .github valco72",
             "REPLY": "```Herhangi Bir Kullanıcı Adı Girmen Gerekiyor!```",
             "NOT": "```Kullanıcı Bulunamadı!```",
             "FOLLOWERS": "Takipçiler:",
